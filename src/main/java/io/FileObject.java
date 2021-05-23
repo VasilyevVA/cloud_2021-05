@@ -1,10 +1,10 @@
 package io;
 
+import lombok.Data;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-
-import lombok.Data;
 
 @Data
 public class FileObject implements Message {
