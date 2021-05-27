@@ -1,12 +1,5 @@
 package io;
 
-import javafx.application.Platform;
-import javafx.event.ActionEvent;
-import javafx.fxml.Initializable;
-import javafx.scene.control.ListView;
-import javafx.scene.control.TextField;
-import lombok.extern.slf4j.Slf4j;
-
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -14,6 +7,13 @@ import java.net.Socket;
 import java.net.URL;
 import java.nio.file.Paths;
 import java.util.ResourceBundle;
+
+import javafx.application.Platform;
+import javafx.event.ActionEvent;
+import javafx.fxml.Initializable;
+import javafx.scene.control.ListView;
+import javafx.scene.control.TextField;
+import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 public class ChatController implements Initializable {
